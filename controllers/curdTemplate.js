@@ -3,36 +3,36 @@ HttpError = require('http-errors')
 
 // importing user model
 
-
 // Fetch by id
-const Fetch = () => {
+const Fetch = (req,res,next) => {
 
 
 };
 
 // Fetch all
-const FetchAll = () => {
+const FetchAll = (req,res,next) => {
 
 
 };
 
 // Create
-const Create = () => {
+const Create = (req,res,next) => {
 
  
 
 };
 
 // Update
-const Update = () => {
+const Update = (req,res,next) => {
 
 
 };
 
 // Delete
-const Delete = () => {
+const Delete = (req,res,next) => {
 
 };
+
 
 
 // export controllers
