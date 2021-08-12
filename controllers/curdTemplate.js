@@ -4,32 +4,32 @@ HttpError = require('http-errors')
 // importing user model
 
 // Fetch by id
-const Fetch = (req,res,next) => {
+const Fetch = async(req,res,next) => {
 
 
 };
 
 // Fetch all
-const FetchAll = (req,res,next) => {
+const FetchAll = async(req,res,next) => {
 
 
 };
 
 // Create
-const Create = (req,res,next) => {
+const Create = async(req,res,next) => {
 
  
 
 };
 
 // Update
-const Update = (req,res,next) => {
+const Update = async(req,res,next) => {
 
 
 };
 
 // Delete
-const Delete = (req,res,next) => {
+const Delete = async(req,res,next) => {
 
 };
 
